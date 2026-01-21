@@ -1,4 +1,4 @@
-import { PetMatch } from '../App';
+import type { PetMatch } from '../types/quiz';
 
 type ResultProps = {
   pet: PetMatch;

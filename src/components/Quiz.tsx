@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { QuizAnswers } from '../App';
+import type { QuizAnswers } from '../types/quiz';
 
 type Question = {
   id: keyof QuizAnswers;
